@@ -46,12 +46,6 @@ public class Main {
 	}
 
 	public ArrayList<String> AStar(Grafo grafo, String inicio, String linea, String destino) {
-		System.out.println("------------");
-
-		System.out.println("Origen:   \"" + inicio + "\"");
-		System.out.println("Linea:   \"" + linea + "\"");
-		System.out.println("Destino:   \"" + destino + "\"");
-		System.out.println("------------");
 
 		HashSet<Vertice> cerrados = new HashSet<Vertice>();
 
@@ -68,8 +62,6 @@ public class Main {
 				}
 			}
 		});
-
-		System.out.println("desde \"" + inicio + "\" hastas \"" + destino + "\"");
 
 		init.f = mapa.HaversineFormula(inicio, destino);
 		init.g = 0;
