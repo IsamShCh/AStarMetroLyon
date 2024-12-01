@@ -1,4 +1,4 @@
-|Autores|
-|--|
-|Isam Saha Chaham|
-|Diego Mendaña Álvarez|
+|Autores|Git|
+|--|--|
+|Isam Saha Chaham|IsamShCh|
+|Diego Mendaña Álvarez|DiegoMenda|
