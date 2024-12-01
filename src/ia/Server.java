@@ -57,11 +57,6 @@ public class Server {
 
             Main main = new Main();
             ArrayList<String> ruta = main.AStar(Grafo.getInstance(), origen, linea_origen, destino);
-            System.out.println("Instancia:   " + Grafo.getInstance());
-            System.out.println("Origen:   \"" + origen + "\"");
-            System.out.println("Linea:   \"" + linea_origen + "\"");
-            System.out.println("Destino:   \"" + destino + "\"");
-            System.out.println("XD   " + ruta);
             if (ruta == null) {
                 enviarError(out, "No se pudo encontrar una ruta.");
                 return;
