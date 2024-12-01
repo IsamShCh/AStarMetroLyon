@@ -115,15 +115,10 @@ public class Grafo {
 		} catch (Exception e) {
 			System.err.println("Error al crear el grafo: " + e.getMessage());
 		}
-		System.out.println("Grafo crado");
 	}
 
 	public static Grafo getInstance() {
-		if (instance == null) {
-			instance = new Grafo();
-			System.out.println("NEW GRAFO");
-		}
-		return instance;
+		return new Grafo();
 	}
 
 	// Métodos para crear el grafo
